@@ -1,0 +1,3122 @@
+{
+  "steps": [
+    { "action": "delete", "contentType":  "filteringquestionsets"},
+    { "action": "delete", "contentType":  "filteringquestions"},
+    { "action": "delete", "contentType":  "shortquestionsets"},
+    { "action": "delete", "contentType":  "shortquestions"},
+    { "action": "delete", "contentType":  "traits"},
+    {
+      "action": "create",
+      "contentType": "traits",
+      "data": {
+        "Title": "Leader",
+        "Description": "",
+        "ResultDisplayText": "you like to lead other people and are good at taking control of situations",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        { 
+          "values": [
+            "Managerial",
+            "Teaching and education",
+            "Emergency and uniform services" 
+          ],
+          "relatedType": { "property": "Title", "type": "taxonomies", "navigationProperty":"JobProfileTaxonomy", "contentType": "Job Profile Category" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "traits",
+      "data": {
+        "Title": "Driver",
+        "Description": "",
+        "ResultDisplayText": "you are motivated, set yourself personal goals and are comfortable competing with other people",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Managerial",
+            "Beauty and wellbeing",
+            "Science and research",
+            "Manufacturing",
+            "Business and finance",
+            "Law and legal",
+            "Sports and leisure"
+          ],
+          "relatedType": { "property": "Title", "type": "taxonomies", "navigationProperty":"JobProfileTaxonomy", "contentType": "Job Profile Category" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "traits",
+      "data": {
+        "Title": "Organiser",
+        "Description": "",
+        "ResultDisplayText": "you like to plan things and are well organised",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        { 
+          "values": [
+            "Science and research", 
+            "Manufacturing",        
+            "Teaching and education",
+            "Business and finance", 
+            "Law and legal", 
+            "Travel and tourism", 
+            "Administration",
+            "Government services", 
+            "Home services", 
+            "Transport", 
+            "Delivery and storage"
+          ],
+          "relatedType": { "property": "Title", "type": "taxonomies", "navigationProperty":"JobProfileTaxonomy", "contentType": "Job Profile Category" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "traits",
+      "data": {
+        "Title": "Analyst",
+        "Description": "",
+        "ResultDisplayText": "you like dealing with complicated problems or working with numbers",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Science and research",
+            "Manufacturing",
+            "Computing, technology and digital",
+            "Sports and leisure",
+            "Construction and trades",
+            "Creative and media"
+          ],
+          "relatedType": { "property": "Title", "type": "taxonomies", "navigationProperty":"JobProfileTaxonomy", "contentType": "Job Profile Category" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "traits",
+      "data": {
+        "Title": "Creator",
+        "Description": "",
+        "ResultDisplayText": "you are a creative person and enjoy coming up with new ways of doing things",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Computing, technology and digital",
+            "Sports and leisure",
+            "Construction and trades",
+            "Creative and media"
+          ],
+          "relatedType": { "property": "Title", "type": "taxonomies", "navigationProperty":"JobProfileTaxonomy", "contentType": "Job Profile Category" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "traits",
+      "data": {
+        "Title": "Influencer",
+        "Description": "",
+        "ResultDisplayText": "you are sociable and find it easy to understand people",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Retail and sales",
+            "Hospitality and food"
+          ],
+          "relatedType": { "property": "Title", "type": "taxonomies", "navigationProperty":"JobProfileTaxonomy", "contentType": "Job Profile Category" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "traits",
+      "data": {
+        "Title": "Doer",
+        "Description": "",
+        "ResultDisplayText": "you are a practical person and enjoy getting things done",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Beauty and wellbeing",
+            "Business and finance",
+            "Law and legal",
+            "Healthcare",
+            "Animal care",
+            "Emergency and uniform services",
+            "Travel and tourism", 
+            "Home services",
+            "Environment and land",
+            "Construction and trades",
+            "Creative and media",
+            "Engineering and maintenance",
+            "Transport",
+            "Delivery and storage"
+          ],
+          "relatedType": { "property": "Title", "type": "taxonomies", "navigationProperty":"JobProfileTaxonomy", "contentType": "Job Profile Category" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "traits",
+      "data": {
+        "Title": "Helper",
+        "Description": "",
+        "ResultDisplayText": "you enjoy helping and listening to other people",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Teaching and education",
+            "Social care",
+            "Healthcare",
+            "Animal care",
+            "Emergency and uniform services",
+            "Travel and tourism",
+            "Retail and sales",
+            "Hospitality and food"
+          ],
+          "relatedType": { "property": "Title", "type": "taxonomies", "navigationProperty":"JobProfileTaxonomy", "contentType": "Job Profile Category" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I am comfortable telling people what they need to do",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "leader"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I make decisions quickly",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "leader"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I like to take control of situations",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "leader"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": true,
+        "QuestionText": "I prefer to follow what other people are doing",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "leader"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I like taking responsibility for other people",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "leader"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I set myself targets when I have things to do, and usually meet them",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "driver"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I like to see things through to the end",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "driver"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I think I am a competitive person",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "driver"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "Doing well in a career motivates me",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "driver"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I set myself goals in life",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "driver"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I am comfortable talking people around to my way of thinking",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Influencer"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I am good at coming to an agreement with other people",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Influencer"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I am comfortable talking in front of a group of people",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Influencer"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I like meeting new people",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Influencer"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": true,
+        "QuestionText": "I find it hard to understand other people's point of view",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Influencer"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I like to help other people",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Helper"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I enjoy working with other people around me",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Helper"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I want to make things better for people",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Helper"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I will get involved if I think I can help",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Helper"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I am comfortable hearing other people's problems",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Helper"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I like to work out complicated things",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Analyst"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I like to get to the centre of the issue",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Analyst"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I like working with facts",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Analyst"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I like working with numbers",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Analyst"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I enjoy learning new things",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Analyst"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I enjoy coming up with new ways of doing things",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Creator"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I try to think differently to others",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Creator"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I like to use my imagination to create new things",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Creator"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I like to try new things",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Creator"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I enjoy creative activities",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Creator"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I like to focus on details",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Organiser"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I plan my day so I can use my time best",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Organiser"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I like doing things in a careful order",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Organiser"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I like to follow rules and processes",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Organiser"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": true,
+        "QuestionText": "I feel restricted when I have to follow a routine",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Organiser"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I like to see the results of the work I do",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Doer"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I like to get involved in making things",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Doer"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I enjoy getting involved in practical tasks",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Doer"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": false,
+        "QuestionText": "I like working with my hands or tools",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Doer"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestions",
+      "data": {
+        "IsNegative": true,
+        "QuestionText": "I enjoy planning a task more than actually doing it",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "Doer"
+          ],
+          "relatedType": { "property": "Title", "type": "Trait", "contentType": "traits" }
+        }
+      ]
+    },
+    {
+      "action": "create",
+      "contentType": "shortquestionsets",
+      "data": {
+        "Title": "201901",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "relates": [
+        {
+          "values": [
+            "I am comfortable telling people what they need to do",
+            "I make decisions quickly",
+            "I like to take control of situations",
+            "I prefer to follow what other people are doing",
+            "I like taking responsibility for other people",
+            "I set myself targets when I have things to do, and usually meet them",
+            "I like to see things through to the end",
+            "I think I am a competitive person",
+            "Doing well in a career motivates me",
+            "I set myself goals in life",
+            "I am comfortable talking people around to my way of thinking",
+            "I am good at coming to an agreement with other people",
+            "I am comfortable talking in front of a group of people",
+            "I like meeting new people",
+            "I find it hard to understand other people's point of view",
+            "I like to help other people",
+            "I enjoy working with other people around me",
+            "I want to make things better for people",
+            "I will get involved if I think I can help",
+            "I am comfortable hearing other people's problems",
+            "I like to work out complicated things",
+            "I like to get to the centre of the issue",
+            "I like working with facts",
+            "I like working with numbers",
+            "I enjoy learning new things",
+            "I enjoy coming up with new ways of doing things",
+            "I try to think differently to others",
+            "I like to use my imagination to create new things",
+            "I like to try new things",
+            "I enjoy creative activities",
+            "I like to focus on details",
+            "I plan my day so I can use my time best",
+            "I like doing things in a careful order",
+            "I like to follow rules and processes",
+            "I feel restricted when I have to follow a routine",
+            "I like to see the results of the work I do",
+            "I like to get involved in making things",
+            "I enjoy getting involved in practical tasks",
+            "I like working with my hands or tools",
+            "I enjoy planning a task more than actually doing it"
+          ],
+          "relatedType": { "property": "QuestionText", "type": "Questions", "contentType": "shortquestions" }
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "achievement/effort",
+        "QuestionText": "Would you feel comfortable in a job where you have to put a lot of effort in to get things done?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "achievement/effort"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "active learning",
+        "QuestionText": "Do you enjoy learning new things?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "active learning"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "adaptability/flexibility",
+        "QuestionText": "Are you comfortable doing a variety of tasks in a job and open to things changing?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "adaptability/flexibility"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "analytical thinking",
+        "QuestionText": "Are you comfortable analysing information to solve problems?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "analytical thinking"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "complex problem solving",
+        "QuestionText": "Do you enjoy solving complicated problems?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "complex problem solving"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "concern for others",
+        "QuestionText": "Would you be comfortable in a job where you would need to be sensitive to other people's needs and feelings?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "concern for others"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "control movement abilities",
+        "QuestionText": "Do you have good balance and co-ordination when doing things?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "control movement abilities"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "cooperation",
+        "QuestionText": "Are you comfortable working in a team with other people?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "cooperation"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "coordination",
+        "QuestionText": "Are you comfortable co-ordinating things?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "coordination"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "endurance",
+        "QuestionText": "Would you be able to do physical work for most of the day?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "endurance"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "equipment maintenance",
+        "QuestionText": "Would you like a job maintaining equipment?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "equipment maintenance"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "fine manipulative abilities",
+        "QuestionText": "Are you able to do detailed, intricate work with your hands?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "fine manipulative abilities"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "independence",
+        "QuestionText": "Would you be comfortable working by yourself?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "independence"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "independence, initiative",
+        "QuestionText": "Do you find it easy to stay motivated to get things done if you are working by yourself?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "independence, initiative"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "initiative",
+        "QuestionText": "Are you good at thinking of new ways to do something without being told?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "initiative"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "innovation",
+        "QuestionText": "Do you think you are good at coming up with new ways of doing things?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "innovation"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "installation",
+        "QuestionText": "Would you like a job where you would install equipment, machines, wiring or computer programs?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "installation"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "instructing",
+        "QuestionText": "Would you like to teach other people how to do things?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "instructing"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "judgment and decision making",
+        "QuestionText": "Are you comfortable comparing options to decide on the best one?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "judgment and decision making"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "leadership",
+        "QuestionText": "Would you like a job where you take charge and lead people?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "leadership"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "leadership, coordination,",
+        "QuestionText": "Are you able to lead a team and make sure things run smoothly?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "leadership, coordination,"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "learning strategies",
+        "QuestionText": "Would you like to plan training for people?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "learning strategies"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "management of financial resources",
+        "QuestionText": "Would you like a job managing budgets?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "management of financial resources"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "management of personnel resources",
+        "QuestionText": "Are you comfortable managing and motivating people?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "management of personnel resources"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "mathematics",
+        "QuestionText": "Are you confident using maths to solve problems?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "mathematics"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "memory",
+        "QuestionText": "Are you good at remembering things?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "memory"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "monitoring",
+        "QuestionText": "Are you interested in checking how well things are working in order to make improvements?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "monitoring"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "negotiation",
+        "QuestionText": "Are you comfortable helping people to overcome their differences?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "negotiation"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "operation and control",
+        "QuestionText": "Would you be comfortable operating equipment?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "operation and control"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "operation monitoring",
+        "QuestionText": "Would you like a job monitoring machinery to make sure it is working properly?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "operation monitoring"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "operations analysis",
+        "QuestionText": "Would you like a job where you would need to create a design based on what is needed?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "operations analysis"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "persistence",
+        "QuestionText": "Are you able to carry on with a task even if it starts to get difficult?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "persistence"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "persuasion",
+        "QuestionText": "Are you comfortable getting other people to do things?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "persuasion"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "persuasion, negotiation",
+        "QuestionText": "Are you comfortable getting other people to reach an agreement with each other?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "persuasion, negotiation"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "programming",
+        "QuestionText": "Would you like to write computer programs?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "programming"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "quality control analysis",
+        "QuestionText": "Are you interested in doing tests and inspections to check how well things are working?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "quality control analysis"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "quantitative abilities",
+        "QuestionText": "Are you able to solve maths problems like multiplication and division quickly and correctly?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "quantitative abilities"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "quantitative abilities, mathematics knowledge",
+        "QuestionText": "Are you confident solving maths problems using statistics, algebra and arithmetic?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "quantitative abilities, mathematics knowledge"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "quantitative abilities, mathematics skills",
+        "QuestionText": "Would you be confident in choosing the right mathematical method or formula to solve a problem?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "quantitative abilities, mathematics skills"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "repairing",
+        "QuestionText": "Would you like a job repairing things using tools?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "repairing"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "science",
+        "QuestionText": "Would you be comfortable using scientific methods to solve problems?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "science"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "self control",
+        "QuestionText": "Are you able to control your emotions even in difficult situations?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "self control"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "service orientation",
+        "QuestionText": "Do you think you go out of your way to help people?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "service orientation"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "social orientation",
+        "QuestionText": "Do you prefer working in a group rather than working on your own?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "social orientation"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "social perceptiveness",
+        "QuestionText": "Are you good at understanding why other people do or say certain things?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "social perceptiveness"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "speaking, verbal abilities",
+        "QuestionText": "Are you comfortable talking through things with other people so that they understand?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "speaking, verbal abilities"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "stress tolerance",
+        "QuestionText": "Do you think you are good at staying calm under pressure?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "stress tolerance"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "systems analysis",
+        "QuestionText": "Would you like a job where you assess how things work for people?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "systems analysis"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "systems analysis, systems evaluation",
+        "QuestionText": "Would you like a job analysing how things work and recommending how they could be improved?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "systems analysis, systems evaluation"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "systems evaluation",
+        "QuestionText": "Would you like a job where you measure how things work and suggest improvements?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "systems evaluation"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "time management",
+        "QuestionText": "Do you think you are good at managing your time?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "time management"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "troubleshooting",
+        "QuestionText": "Would you like a job where you find and fix faults?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "troubleshooting"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "verbal abilities",
+        "QuestionText": "Do you think you are good at using words to describe ideas?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "verbal abilities"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "verbal abilities, speaking",
+        "QuestionText": "Do you think you are good at explaining things, either by talking or writing it down?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "verbal abilities, speaking"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "writing",
+        "QuestionText": "Would you be comfortable in a job where writing was one of your main tasks?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "writing"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "attention to detail",
+        "QuestionText": "Do you enjoy being thorough and paying attention to details?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "attention to detail"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "critical thinking",
+        "QuestionText": "Are you able to look at a problem from different sides to decide the best way forward?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "critical thinking"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "idea generation and reasoning abilities",
+        "QuestionText": "Do you think you are good at coming up with lots of different ways to solve problems?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "idea generation and reasoning abilities"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "attentiveness",
+        "QuestionText": "Are you able to concentrate on a task for a long time without becoming distracted?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "attentiveness"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "active listening",
+        "QuestionText": "Do you think you are good at paying attention to what other people are saying, taking the time to understand what they mean?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "active listening"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "equipment selection",
+        "QuestionText": "Would you like a job that involves deciding which tools or equipment need to be used?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "equipment selection"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "speaking",
+        "QuestionText": "Are you able to talk people through instructions?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "speaking"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "achievement orientation",
+        "QuestionText": "Do you enjoy taking on more responsibility for things at work?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "achievement orientation"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "achievement orientation, achievement/effort",
+        "QuestionText": "Do you like to put in a lot of effort so that you get much better at doing things?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "achievement orientation, achievement/effort"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "adjustment",
+        "QuestionText": "Do you think you are good at coping with setbacks, stress and pressures at work?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "adjustment"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "adjustment, self control",
+        "QuestionText": "Are you good at staying calm and professional in difficult situations?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "adjustment, self control"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "cognitive abilities",
+        "QuestionText": "Are you able to pull together different pieces of information to understand problems?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "cognitive abilities"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "cognitive abilities, troubleshooting",
+        "QuestionText": "Would you like a job where you would assess why something is going wrong and working out what to do about it?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "cognitive abilities, troubleshooting"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "complex problem solving skills",
+        "QuestionText": "Do you think you are good at solving problems that other people find difficult?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "complex problem solving skills"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "complex problem solving skills, complex problem solving",
+        "QuestionText": "Would you be able to identify and research difficult problems, and find answers to them?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "complex problem solving skills, complex problem solving"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "interpersonal orientation",
+        "QuestionText": "Do you think you are easy to get along with at work?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "interpersonal orientation"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "interpersonal orientation, cooperation",
+        "QuestionText": "Do you find it easy to build good relationships with people you work with?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "interpersonal orientation, cooperation"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "management of material resources",
+        "QuestionText": "Would you like a job where you have to find the right equipment and materials to get something done?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "management of material resources"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "physical abilities",
+        "QuestionText": "Do you think you are physically strong and flexible?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "physical abilities"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "physical abilities,endurance",
+        "QuestionText": "Do you find it easy to do physical tasks for long periods without getting too tired?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "physical abilities,endurance"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "practical intelligence",
+        "QuestionText": "Do you think you are good at coming up with practical ideas to solve problems?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "practical intelligence"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "psychomotor abilities",
+        "QuestionText": "Are you able to keep your arms and hands steady when working?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "psychomotor abilities"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "psychomotor abilities,control movement abilities",
+        "QuestionText": "Could you quickly adjust the controls of a machine or a vehicle?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "psychomotor abilities,control movement abilities"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "resource management skills",
+        "QuestionText": "Would you like to work in a job managing people, money and time?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "resource management skills"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "social influence",
+        "QuestionText": "Do people tend to follow your lead?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "social influence"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "social skills",
+        "QuestionText": "Do you think you are good at working with other people to get things done?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "social skills"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "systems skills",
+        "QuestionText": "Could you find the best ways for people and technology to work together in an organisation?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "systems skills"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "technical skills",
+        "QuestionText": "Do you think you could design, set up and operate machinery and equipment?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "technical skills"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "technology design",
+        "QuestionText": "Would you like a job designing technology and equipment?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "technology design"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestions",
+      "Data": {
+        "Title": "reading comprehension",
+        "QuestionText": "Are you able to read well?",
+        "Description": "",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "RelatedSkill",
+            "ContentType": "skills",
+            "Property": "Title"
+          },
+          "Values": [
+            "reading comprehension"
+          ],
+          "Property": "Title",
+          "ContentType": "skills"
+        }
+      ]
+    },
+    {
+      "Action": "Create",
+      "ContentType": "filteringquestionsets",
+      "Data": {
+        "Title": "Default",
+        "IncludeInSitemap": false
+      },
+      "Relates": [
+        {
+          "RelatedType": {
+            "Type": "Questions",
+            "ContentType": "filteringquestions",
+            "Property": "Title"
+          },
+          "Values": [
+            "achievement/effort",
+            "active learning",
+            "adaptability/flexibility",
+            "analytical thinking",
+            "complex problem solving",
+            "concern for others",
+            "control movement abilities",
+            "cooperation",
+            "coordination",
+            "endurance",
+            "equipment maintenance",
+            "fine manipulative abilities",
+            "independence",
+            "independence, initiative",
+            "initiative",
+            "innovation",
+            "installation",
+            "instructing",
+            "judgment and decision making",
+            "leadership",
+            "leadership, coordination,",
+            "learning strategies",
+            "management of financial resources",
+            "management of personnel resources",
+            "mathematics",
+            "memory",
+            "monitoring",
+            "negotiation",
+            "operation and control",
+            "operation monitoring",
+            "operations analysis",
+            "persistence",
+            "persuasion",
+            "persuasion, negotiation",
+            "programming",
+            "quality control analysis",
+            "quantitative abilities",
+            "quantitative abilities, mathematics knowledge",
+            "quantitative abilities, mathematics skills",
+            "repairing",
+            "science",
+            "self control",
+            "service orientation",
+            "social orientation",
+            "social perceptiveness",
+            "speaking, verbal abilities",
+            "stress tolerance",
+            "systems analysis",
+            "systems analysis, systems evaluation",
+            "systems evaluation",
+            "time management",
+            "troubleshooting",
+            "verbal abilities",
+            "verbal abilities, speaking",
+            "writing",
+            "attention to detail",
+            "critical thinking",
+            "idea generation and reasoning abilities",
+            "attentiveness",
+            "active listening",
+            "equipment selection",
+            "speaking",
+            "achievement orientation",
+            "achievement orientation, achievement/effort",
+            "adjustment",
+            "adjustment, self control",
+            "cognitive abilities",
+            "cognitive abilities, troubleshooting",
+            "complex problem solving skills",
+            "complex problem solving skills, complex problem solving",
+            "interpersonal orientation",
+            "interpersonal orientation, cooperation",
+            "management of material resources",
+            "physical abilities",
+            "physical abilities,endurance",
+            "practical intelligence",
+            "psychomotor abilities",
+            "psychomotor abilities,control movement abilities",
+            "resource management skills",
+            "social influence",
+            "social skills",
+            "systems skills",
+            "technical skills",
+            "technology design",
+            "reading comprehension"
+          ],
+          "Property": "Title",
+          "ContentType": "filteringquestions"
+        }
+      ]
+    }
+  ]
+}
