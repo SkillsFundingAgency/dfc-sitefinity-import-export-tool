@@ -1,9 +1,0 @@
-{
-  "steps": [
-    { "action": "delete", "contentType":  "filteringquestionsets"},
-    { "action": "delete", "contentType":  "filteringquestions"},
-    { "action": "delete", "contentType":  "shortquestionsets"},
-    { "action": "delete", "contentType":  "shortquestions"},
-    { "action": "delete", "contentType":  "traits"}
-  ]
-}

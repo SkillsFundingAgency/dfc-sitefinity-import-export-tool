@@ -9,9 +9,9 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dfc.Sitefinity.ImportExport
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "example-scripts", "example-scripts", "{88B35738-91F8-4DEE-9520-3C6FFE8FA390}"
 ProjectSection(SolutionItems) = preProject
-	delete-content.json = delete-content.json
-	extract-content.json = extract-content.json
-	upload-content.json = upload-content.json
+	example-scripts\delete-content.json = example-scripts\delete-content.json
+	example-scripts\extract-content.json = example-scripts\extract-content.json
+	example-scripts\upload-content.json = example-scripts\upload-content.json
 EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{8CDDF047-33FE-4B63-8AB6-1AFD44E4E3E9}"
