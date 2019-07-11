@@ -2,7 +2,7 @@
 
 This tool is designed to simplify the process of downloading / uploading and removing content within Sitefinity. 
 
-It is a standalone tool, which reads a `json` file that defines a workflow based on the schema below [also see example scripts](https://github.com/SkillsFundingAgency/tree/master/dfc-sitefinity-import-export-tool/example-scripts). The idea behind the tool is that it can be run as either part of a release process in either a manual or automated way. Projects that require content to be pushed to sitefinity can call the tool with a workflow file and the actions will be ran. This allows projects to version their CMS content with the source code of the project. 
+It is a standalone tool, which reads a `json` file that defines a workflow based on the schema below [also see example scripts](https://github.com/SkillsFundingAgency/dfc-sitefinity-import-export-tool/tree/master/example-scripts). The idea behind the tool is that it can be run as either part of a release process in either a manual or automated way. Projects that require content to be pushed to sitefinity can call the tool with a workflow file and the actions will be ran. This allows projects to version their CMS content with the source code of the project. 
 
 ## Running a workflow
 
